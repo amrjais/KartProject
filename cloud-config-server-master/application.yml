@@ -1,0 +1,14 @@
+dopayment: http://PAYMENT-SERVICE/payment/doPayment
+addorder: http://ORDER-SERVICE/order/addOrder
+
+test: value from github
+
+eureka:
+      client:
+           register-with-eureka: true
+           fetch-registry: true
+           service-url: 
+               default-zone: http://localhost:8762/eureka/
+      instance:
+          hostname: localhost
+             

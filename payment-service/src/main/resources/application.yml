@@ -1,0 +1,23 @@
+server:
+      port: 9191
+
+spring:
+     datasource:
+             url: jdbc:h2:mem:testdb2 
+             driverClassName: org.h2.Driver
+     h2:
+      console:
+             enabled: true 
+
+     application:
+             name: PAYMENT-SERVICE
+
+#moving all common config in config server
+#eureka:
+ #     client:
+  #         register-with-eureka: true
+   #        fetch-registry: true
+    #       service-url: 
+     #          default-zone: http://localhost:8761/eureka/
+      #instance:
+       #   hostname: localhost

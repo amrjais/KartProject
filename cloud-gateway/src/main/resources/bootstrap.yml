@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri:
+         - http://localhost:9197
+      import-check: 
+         enabled: false
